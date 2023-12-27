@@ -439,10 +439,10 @@
   resolved "https://registry.yarnpkg.com/@ungap/promise-all-settled/-/promise-all-settled-1.1.2.tgz#aa58042711d6e3275dd37dc597e5d31e8c290a44"
   integrity sha512-sL/cEvJWAnClXw0wHk85/2L0G6Sj8UB0Ctc1TEMbKSsmpRosqhwj9gWgFRZSrBr2f9tiXISwNhCPmlfqUqyb9Q==
 
-"@uniswap/sdk-core@^4.0.6":
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk-core/-/sdk-core-4.0.6.tgz#7b6d562f54293bbe0a9d101fb84e619db325f7b6"
-  integrity sha512-6GzCVfnOiJtvo91zlF/VjnC2OEbBRThVclzrh7+Zmo8dBovXwSlXwqn3RkSWACn/XEOzAKH70TficfOWm6mWJA==
+"@uniswap/sdk-core@npm:@uniswapfoundation/sdk-core@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@uniswapfoundation/sdk-core/-/sdk-core-5.0.0.tgz#314d1c191167f6bfe6bb5a98736e1f9e13b7e652"
+  integrity sha512-fAB3ekjG86tw85ZEMlShiqQw3dc6ENBNTRifXw8NJbf7rDGT27Cd93v/JOr85OXWRaUeR6G5fBKQkQ3FCCmNtg==
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
@@ -451,13 +451,13 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@uniswap/token-list-bridge-utils@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/token-list-bridge-utils/-/token-list-bridge-utils-2.2.0.tgz#7f84ac8748aad5b92c183b4468a2bab61b3d543c"
-  integrity sha512-PLvU7wTFzFEPoIMTdF5qBQ5VFH+Qex9/7ZyHxYLyi4/ROZEjo5c6BcFxhz4x6xMLOaJky5mxxBRPK+nFGjtTEg==
+"@uniswap/token-list-bridge-utils@npm:@uniswapfoundation/token-list-bridge-utils@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@uniswapfoundation/token-list-bridge-utils/-/token-list-bridge-utils-2.3.0.tgz#65c97c57d442c13303c8c1497fd7f16e893fe41b"
+  integrity sha512-i0RC2ZGELXEeGVj9rTASo+5dLYPOtd617maYP0CIrlWYs7WuZXZ3sWIOHEEHvpLaTN4DZNVX4+Zc+UlnOEU2EA==
   dependencies:
     "@arbitrum/sdk" "^3.1.6"
-    "@uniswap/sdk-core" "^4.0.6"
+    "@uniswap/sdk-core" "npm:@uniswapfoundation/sdk-core@^5.0.0"
     axios "^0.26.0"
     dotenv "^16.0.1"
     ethers "^5.6.5"
