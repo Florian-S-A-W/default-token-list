@@ -1,6 +1,6 @@
 {
-  "name": "@uniswapfoundation/default-token-list",
-  "version": "11.10.0",
+  "name": "@uniswap/default-token-list",
+  "version": "11.11.0",
   "description": "The Uniswap default token list",
   "publishConfig": {
     "access": "public"
