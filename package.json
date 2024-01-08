@@ -1,5 +1,5 @@
 {
-  "name": "@uniswap/default-token-list",
+  "name": "@uniswapfoundation/default-token-list",
   "version": "11.11.1",
   "description": "The Uniswap default token list",
   "publishConfig": {
